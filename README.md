@@ -10,7 +10,7 @@
 According to statistics, the cost of business trip expenditure accounts for about 28% of the total corporate expenditure, and has become the second largest controllable cost of an enterprise. The following graph shows the business trip cost one day in top5 expensive Asia city, as we can see , hotel cost has occupied a significant part(over 50%) among all the main business trip costs like hotel meals and transportation. As a result, the primary task for business trip process and cost optimization is to optimize the process and management for the internal business trip hotel booking for an enterprise.
 
 <img src="./img/snapshot2.png"
-     style="float: left; margin-right: 0px;" />
+     style="float: left; margin-right: 0px; height:600px" />
 
 
  *Fig 1-1: Business Trip Cost composition in major Asia Cities*
@@ -33,7 +33,7 @@ In this solution, we use RPA to process these high frequency and repetitive task
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| Li Jiayi |          *A0215492*E          | • Data preprocessing after extracting information from business travelers' email application<br/>• Use web automation to crawl hotel information according to travel needs of business travelers<br/>• RPA Development – develop RPA2- Compare Hotel Price in different Travel Agents<br/>• Provide Travel Agent URL and hotel information that offer the most favorable price for different Travelers.<br/>• Integrate all the lowest hotel price information provided according to different needs into one Excel form for use in subsequent work automation processes<br/>• Project report writing – RPA2, Challenge & Recommendation | caowen@u.nus.edu |
+| Li Jiayi |          *A0215492*E          | • Data preprocessing after extracting information from business travelers' email application<br/>• Use web automation to crawl hotel information according to travel needs of business travelers<br/>• RPA Development – develop RPA2- Compare Hotel Price in different Travel Agents<br/>• Provide Travel Agent URL and hotel information that offer the most favorable price for different Travelers.<br/>• Integrate all the lowest hotel price information provided according to different needs into one Excel form for use in subsequent work automation processes<br/>• Project report writing – RPA2, Challenge & Recommendation | e0535582@u.nus.edu |
 | Lin Xi | A0215403W | • Project idea generation<br/>• Product prototype design – product solution, business flow design<br/>• System architecture design – system/data flow design, system modules design, database structure design<br/>• RPA Development  – develop RPA1- Email Automation, data structured automation<br/>• Cloud AI Development – Implement google natural language process API<br/>• Project management <br/>• Debug & troubleshooting<br/>• Project report writing – Executive Summary, Business Process Solution, RPA1 | linxi@u.nus.edu |
 | Zuo Zhen | *A0215464H* | System construction implement<br/>UI design & UI implement<br/>System  control logic build<br/>implement of RPA3 for sending email <br/>User guide construction<br/>System integration<br/>System test | e053335554@u.nus.edu |
 
