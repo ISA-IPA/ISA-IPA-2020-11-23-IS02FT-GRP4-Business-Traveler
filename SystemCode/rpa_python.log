@@ -1,0 +1,246 @@
+
+START - automation started - Thu Nov 19 2020 19:25:18 GMT+0800 (+08)
+
+LIVE MODE - type done to quit
+ [RPA][STARTED]
+[RPA][0] - listening for inputs
+[RPA][1] - https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1580788659&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fnlp%3d1%26RpsCsrfState%3dd234420e-f55a-d62c-a8e6-c1c9a31e4e54&id=292841&aadredir=1&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015
+[RPA][1] - listening for inputs
+[RPA][2] - present_result = present('//*[@id="o365header"]').toString()
+[RPA][2] - listening for inputs
+[RPA][3] - dump present_result to rpa_python.txt
+[RPA][3] - listening for inputs
+[RPA][4] - exist_result = exist('//input[@aria-label="Search"]').toString()
+[RPA][4] - listening for inputs
+[RPA][5] - dump exist_result to rpa_python.txt
+[RPA][5] - listening for inputs
+[RPA][6] - type //input[@aria-label="Search"] as [clear]travel request OR travelrequest
+[RPA][6] - listening for inputs
+[RPA][7] - exist_result = exist('//button[@aria-label="Search"]').toString()
+[RPA][7] - listening for inputs
+[RPA][8] - dump exist_result to rpa_python.txt
+[RPA][8] - listening for inputs
+[RPA][9] - click //button[@aria-label="Search"]
+[RPA][9] - listening for inputs
+[RPA][10] - exist_result = exist('//div[@class="_3lIR1LfENBYPLTyCDNhq5k" and contains(string(),"Filter")]').toString()
+[RPA][10] - listening for inputs
+[RPA][11] - dump exist_result to rpa_python.txt
+[RPA][11] - listening for inputs
+[RPA][12] - click //div[@class="_3lIR1LfENBYPLTyCDNhq5k" and contains(string(),"Filter")]
+[RPA][12] - listening for inputs
+[RPA][13] - exist_result = exist('//span[contains(text(),"Unread")]').toString()
+[RPA][13] - listening for inputs
+[RPA][14] - dump exist_result to rpa_python.txt
+[RPA][14] - listening for inputs
+[RPA][15] - click //span[contains(text(),"Unread")]
+[RPA][15] - listening for inputs
+[RPA][16] - count_result = count('//div[@class="_1xP-XmXM1GGHpRKCCeOKjP"]').toString()
+[RPA][16] - listening for inputs
+[RPA][17] - dump count_result to rpa_python.txt
+[RPA][17] - listening for inputs
+[RPA][18] - present_result = present('//div[contains(string(),"All results")]').toString()
+[RPA][18] - listening for inputs
+[RPA][19] - dump present_result to rpa_python.txt
+[RPA][19] - listening for inputs
+[RPA][20] - present_result = present('//div[contains(string(),"All results")]').toString()
+[RPA][20] - listening for inputs
+[RPA][21] - dump present_result to rpa_python.txt
+[RPA][21] - listening for inputs
+[RPA][22] - present_result = present('//div[contains(string(),"All results")]').toString()
+[RPA][22] - listening for inputs
+[RPA][23] - dump present_result to rpa_python.txt
+[RPA][23] - listening for inputs
+[RPA][24] - present_result = present('//div[contains(string(),"All results")]').toString()
+[RPA][24] - listening for inputs
+[RPA][25] - dump present_result to rpa_python.txt
+[RPA][25] - listening for inputs
+[RPA][26] - exist_result = exist('(//div[@class="_1xP-XmXM1GGHpRKCCeOKjP"])[4]').toString()
+[RPA][26] - listening for inputs
+[RPA][27] - dump exist_result to rpa_python.txt
+[RPA][27] - listening for inputs
+[RPA][28] - click (//div[@class="_1xP-XmXM1GGHpRKCCeOKjP"])[4]
+[RPA][28] - listening for inputs
+[RPA][29] - exist_result = exist('//div[@class="_3U2q6dcdZCrTrR_42Nxby JWNdg1hee9_Rz6bIGvG1c allowTextSelection"]').toString()
+[RPA][29] - listening for inputs
+[RPA][30] - dump exist_result to rpa_python.txt
+[RPA][30] - listening for inputs
+[RPA][31] - read //div[@class="_3U2q6dcdZCrTrR_42Nxby JWNdg1hee9_Rz6bIGvG1c allowTextSelection"] to read_result
+[RPA][31] - listening for inputs
+[RPA][32] - dump read_result to rpa_python.txt
+[RPA][32] - listening for inputs
+[RPA][33] - exist_result = exist('//div[starts-with(@class,"VHquDtYElxQkNvZKxCJct")]').toString()
+[RPA][33] - listening for inputs
+[RPA][34] - dump exist_result to rpa_python.txt
+[RPA][34] - listening for inputs
+[RPA][35] - read //div[starts-with(@class,"VHquDtYElxQkNvZKxCJct")] to read_result
+[RPA][35] - listening for inputs
+[RPA][36] - dump read_result to rpa_python.txt
+[RPA][36] - listening for inputs
+[RPA][37] - exist_result = exist('//div[@class="DWrY3hKxZTZNTwt3mx095"]').toString()
+[RPA][37] - listening for inputs
+[RPA][38] - dump exist_result to rpa_python.txt
+[RPA][38] - listening for inputs
+[RPA][39] - read //div[@class="DWrY3hKxZTZNTwt3mx095"] to read_result
+[RPA][39] - listening for inputs
+[RPA][40] - dump read_result to rpa_python.txt
+[RPA][40] - listening for inputs
+[RPA][41] - exist_result = exist('//button[@aria-label="More mail actions" and @role="button"]').toString()
+[RPA][41] - listening for inputs
+[RPA][42] - dump exist_result to rpa_python.txt
+[RPA][42] - listening for inputs
+[RPA][43] - click //button[@aria-label="More mail actions" and @role="button"]
+[RPA][43] - listening for inputs
+[RPA][44] - exist_result = exist('//button[@aria-label="Mark as read" and @role="menuitem"]').toString()
+[RPA][44] - listening for inputs
+[RPA][45] - dump exist_result to rpa_python.txt
+[RPA][45] - listening for inputs
+[RPA][46] - click //button[@aria-label="Mark as read" and @role="menuitem"]
+[RPA][46] - listening for inputs
+[RPA][47] - present_result = present('//div[contains(string(),"All results")]').toString()
+[RPA][47] - listening for inputs
+[RPA][48] - dump present_result to rpa_python.txt
+[RPA][48] - listening for inputs
+[RPA][49] - exist_result = exist('(//div[@class="_1xP-XmXM1GGHpRKCCeOKjP"])[5]').toString()
+[RPA][49] - listening for inputs
+[RPA][50] - dump exist_result to rpa_python.txt
+[RPA][50] - listening for inputs
+[RPA][51] - click (//div[@class="_1xP-XmXM1GGHpRKCCeOKjP"])[5]
+[RPA][51] - listening for inputs
+[RPA][52] - exist_result = exist('//div[@class="_3U2q6dcdZCrTrR_42Nxby JWNdg1hee9_Rz6bIGvG1c allowTextSelection"]').toString()
+[RPA][52] - listening for inputs
+[RPA][53] - dump exist_result to rpa_python.txt
+[RPA][53] - listening for inputs
+[RPA][54] - read //div[@class="_3U2q6dcdZCrTrR_42Nxby JWNdg1hee9_Rz6bIGvG1c allowTextSelection"] to read_result
+[RPA][54] - listening for inputs
+[RPA][55] - dump read_result to rpa_python.txt
+[RPA][55] - listening for inputs
+[RPA][56] - exist_result = exist('//div[starts-with(@class,"VHquDtYElxQkNvZKxCJct")]').toString()
+[RPA][56] - listening for inputs
+[RPA][57] - dump exist_result to rpa_python.txt
+[RPA][57] - listening for inputs
+[RPA][58] - read //div[starts-with(@class,"VHquDtYElxQkNvZKxCJct")] to read_result
+[RPA][58] - listening for inputs
+[RPA][59] - dump read_result to rpa_python.txt
+[RPA][59] - listening for inputs
+[RPA][60] - exist_result = exist('//div[@class="DWrY3hKxZTZNTwt3mx095"]').toString()
+[RPA][60] - listening for inputs
+[RPA][61] - dump exist_result to rpa_python.txt
+[RPA][61] - listening for inputs
+[RPA][62] - read //div[@class="DWrY3hKxZTZNTwt3mx095"] to read_result
+[RPA][62] - listening for inputs
+[RPA][63] - dump read_result to rpa_python.txt
+[RPA][63] - listening for inputs
+[RPA][64] - exist_result = exist('//button[@aria-label="More mail actions" and @role="button"]').toString()
+[RPA][64] - listening for inputs
+[RPA][65] - dump exist_result to rpa_python.txt
+[RPA][65] - listening for inputs
+[RPA][66] - click //button[@aria-label="More mail actions" and @role="button"]
+[RPA][66] - listening for inputs
+[RPA][67] - exist_result = exist('//button[@aria-label="Mark as read" and @role="menuitem"]').toString()
+[RPA][67] - listening for inputs
+[RPA][68] - dump exist_result to rpa_python.txt
+[RPA][68] - listening for inputs
+[RPA][69] - click //button[@aria-label="Mark as read" and @role="menuitem"]
+[RPA][69] - listening for inputs
+[RPA][70] - present_result = present('//div[contains(string(),"All results")]').toString()
+[RPA][70] - listening for inputs
+[RPA][71] - dump present_result to rpa_python.txt
+[RPA][71] - listening for inputs
+[RPA][72] - exist_result = exist('(//div[@class="_1xP-XmXM1GGHpRKCCeOKjP"])[6]').toString()
+[RPA][72] - listening for inputs
+[RPA][73] - dump exist_result to rpa_python.txt
+[RPA][73] - listening for inputs
+[RPA][74] - click (//div[@class="_1xP-XmXM1GGHpRKCCeOKjP"])[6]
+[RPA][74] - listening for inputs
+[RPA][75] - exist_result = exist('//div[@class="_3U2q6dcdZCrTrR_42Nxby JWNdg1hee9_Rz6bIGvG1c allowTextSelection"]').toString()
+[RPA][75] - listening for inputs
+[RPA][76] - dump exist_result to rpa_python.txt
+[RPA][76] - listening for inputs
+[RPA][77] - read //div[@class="_3U2q6dcdZCrTrR_42Nxby JWNdg1hee9_Rz6bIGvG1c allowTextSelection"] to read_result
+[RPA][77] - listening for inputs
+[RPA][78] - dump read_result to rpa_python.txt
+[RPA][78] - listening for inputs
+[RPA][79] - exist_result = exist('//div[starts-with(@class,"VHquDtYElxQkNvZKxCJct")]').toString()
+[RPA][79] - listening for inputs
+[RPA][80] - dump exist_result to rpa_python.txt
+[RPA][80] - listening for inputs
+[RPA][81] - read //div[starts-with(@class,"VHquDtYElxQkNvZKxCJct")] to read_result
+[RPA][81] - listening for inputs
+[RPA][82] - dump read_result to rpa_python.txt
+[RPA][82] - listening for inputs
+[RPA][83] - exist_result = exist('//div[@class="DWrY3hKxZTZNTwt3mx095"]').toString()
+[RPA][83] - listening for inputs
+[RPA][84] - dump exist_result to rpa_python.txt
+[RPA][84] - listening for inputs
+[RPA][85] - read //div[@class="DWrY3hKxZTZNTwt3mx095"] to read_result
+[RPA][85] - listening for inputs
+[RPA][86] - dump read_result to rpa_python.txt
+[RPA][86] - listening for inputs
+[RPA][87] - exist_result = exist('//button[@aria-label="More mail actions" and @role="button"]').toString()
+[RPA][87] - listening for inputs
+[RPA][88] - dump exist_result to rpa_python.txt
+[RPA][88] - listening for inputs
+[RPA][89] - click //button[@aria-label="More mail actions" and @role="button"]
+[RPA][89] - listening for inputs
+[RPA][90] - exist_result = exist('//button[@aria-label="Mark as read" and @role="menuitem"]').toString()
+[RPA][90] - listening for inputs
+[RPA][91] - dump exist_result to rpa_python.txt
+[RPA][91] - listening for inputs
+[RPA][92] - click //button[@aria-label="Mark as read" and @role="menuitem"]
+[RPA][92] - listening for inputs
+[RPA][93] - present_result = present('//div[contains(string(),"All results")]').toString()
+[RPA][93] - listening for inputs
+[RPA][94] - dump present_result to rpa_python.txt
+[RPA][94] - listening for inputs
+[RPA][95] - exist_result = exist('(//div[@class="_1xP-XmXM1GGHpRKCCeOKjP"])[7]').toString()
+[RPA][95] - listening for inputs
+[RPA][96] - dump exist_result to rpa_python.txt
+[RPA][96] - listening for inputs
+[RPA][97] - click (//div[@class="_1xP-XmXM1GGHpRKCCeOKjP"])[7]
+[RPA][97] - listening for inputs
+[RPA][98] - exist_result = exist('//div[@class="_3U2q6dcdZCrTrR_42Nxby JWNdg1hee9_Rz6bIGvG1c allowTextSelection"]').toString()
+[RPA][98] - listening for inputs
+[RPA][99] - dump exist_result to rpa_python.txt
+[RPA][99] - listening for inputs
+[RPA][100] - read //div[@class="_3U2q6dcdZCrTrR_42Nxby JWNdg1hee9_Rz6bIGvG1c allowTextSelection"] to read_result
+[RPA][100] - listening for inputs
+[RPA][101] - dump read_result to rpa_python.txt
+[RPA][101] - listening for inputs
+[RPA][102] - exist_result = exist('//div[starts-with(@class,"VHquDtYElxQkNvZKxCJct")]').toString()
+[RPA][102] - listening for inputs
+[RPA][103] - dump exist_result to rpa_python.txt
+[RPA][103] - listening for inputs
+[RPA][104] - read //div[starts-with(@class,"VHquDtYElxQkNvZKxCJct")] to read_result
+[RPA][104] - listening for inputs
+[RPA][105] - dump read_result to rpa_python.txt
+[RPA][105] - listening for inputs
+[RPA][106] - exist_result = exist('//div[@class="DWrY3hKxZTZNTwt3mx095"]').toString()
+[RPA][106] - listening for inputs
+[RPA][107] - dump exist_result to rpa_python.txt
+[RPA][107] - listening for inputs
+[RPA][108] - read //div[@class="DWrY3hKxZTZNTwt3mx095"] to read_result
+[RPA][108] - listening for inputs
+[RPA][109] - dump read_result to rpa_python.txt
+[RPA][109] - listening for inputs
+[RPA][110] - exist_result = exist('//button[@aria-label="More mail actions" and @role="button"]').toString()
+[RPA][110] - listening for inputs
+[RPA][111] - dump exist_result to rpa_python.txt
+[RPA][111] - listening for inputs
+[RPA][112] - click //button[@aria-label="More mail actions" and @role="button"]
+[RPA][112] - listening for inputs
+[RPA][113] - exist_result = exist('//button[@aria-label="Mark as read" and @role="menuitem"]').toString()
+[RPA][113] - listening for inputs
+[RPA][114] - dump exist_result to rpa_python.txt
+[RPA][114] - listening for inputs
+[RPA][115] - click //button[@aria-label="Mark as read" and @role="menuitem"]
+[RPA][115] - listening for inputs
+[RPA][116] - present_result = present('//div[contains(string(),"All results")]').toString()
+[RPA][116] - listening for inputs
+[RPA][117] - dump present_result to rpa_python.txt
+[RPA][117] - listening for inputs
+[RPA][118] - exist_result = exist('(//div[@class="_1xP-XmXM1GGHpRKCCeOKjP"])[8]').toString()
+[RPA][118] - listening for inputs
+[RPA][119] - dump exist_result to rpa_python.txt
+[RPA][119] - listening for inputs
+[RPA][120] - click (//div[@class="_1xP-XmXM1GGHpRKCCeOKjP"])[8]
+[RPA][120] - listening for inputs

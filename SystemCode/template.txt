@@ -1,0 +1,9 @@
+Dear (name),
+The hotel for your travel to (destination) has been booked!
+The CheckIndate is :(indate) 
+The CheckOutdate is :(outdate) 
+The Hotel booking Price is :(price)
+Any questions please contact me.
+
+Rrds,
+Zuozhen

@@ -41,7 +41,7 @@ In this solution, we use RPA to process these high frequency and repetitive task
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[![](https://res.cloudinary.com/marcomontalbano/image/upload/v1604191166/video_to_markdown/images/youtube--Sr_OFLJvYZc-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=Sr_OFLJvYZc&feature=youtu.be "")
+[![ISA-Business Traveler](https://res.cloudinary.com/marcomontalbano/image/upload/v1605785567/video_to_markdown/images/youtube--VSkym8S0G6U-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=VSkym8S0G6U&feature=youtu.be "ISA-Business Traveler")
 
 ---
 
@@ -63,9 +63,9 @@ In this solution, we use RPA to process these high frequency and repetitive task
 >
 > $ pip install --upgrade google-cloud-language
 >
-> run r&ser.exe
+> run the application
 >
-> $ click "r&ser.exe"
+> $ python main.py
 
 ## SECTION 6 : PROJECT REPORT / PAPER
 
