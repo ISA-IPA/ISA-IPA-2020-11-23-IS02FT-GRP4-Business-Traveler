@@ -63,6 +63,18 @@ In this solution, we use RPA to process these high frequency and repetitive task
 >
 > $ pip install --upgrade google-cloud-language
 >
+> Get your google GOOGLE_APPLICATION_CREDENTIALS
+>
+> * refer to https://cloud.google.com/natural-language/docs/quickstart-client-libraries
+>
+> * Create or select a project
+>
+> - Enable the Google Natural Language API for that project.
+> - Create a service account.
+> - Download a private key as JSON.
+> - Place the JSON file under folder "SystemCode"
+> - Rename the JSON file as "proj3NER-0fda29a98082.json"
+>
 > run the application
 >
 > $ python main.py
